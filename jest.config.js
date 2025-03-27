@@ -19,6 +19,6 @@ export default {
       },
     ],
   },
-  // testMatch: ['<rootDir>/tests/**/*.test.(js|jsx)'],
+  testMatch: ['<rootDir>/tests/**/*.test.(js|jsx)','<rootDir>/src/**/*.test.(js|jsx)',],
   testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/dist/'],
 };

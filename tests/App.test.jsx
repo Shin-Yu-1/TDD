@@ -4,5 +4,5 @@ import App from '../src/App';
 
 test('renders hello message', () => {
   render(<App />);
-  expect(screen.getByText(/hello/i)).toBeInTheDocument();
+  expect(screen.getByText(/on/off/i)).toBeInTheDocument();
 });
