@@ -1,4 +1,6 @@
-function App() {
+import { useState } from "react";
+
+const App = () => {
   return (
     <div>
       <h1>Hello, React 18 with Webpack!</h1>
